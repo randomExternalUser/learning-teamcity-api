@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-teamcity-api", "learning-teamcity-api\learning-teamcity-api.csproj", "{E00B0FB9-E6AB-4984-9BA8-835339370C52}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B63483BE-5E8E-4EB7-9E79-9979E01F6033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learning-teamcity-api-tests", "tests\learning-teamcity-api-tests\learning-teamcity-api-tests.csproj", "{C7936D2E-9AD9-4547-8DCD-E62BCEF829D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{E00B0FB9-E6AB-4984-9BA8-835339370C52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E00B0FB9-E6AB-4984-9BA8-835339370C52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E00B0FB9-E6AB-4984-9BA8-835339370C52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7936D2E-9AD9-4547-8DCD-E62BCEF829D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7936D2E-9AD9-4547-8DCD-E62BCEF829D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7936D2E-9AD9-4547-8DCD-E62BCEF829D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7936D2E-9AD9-4547-8DCD-E62BCEF829D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7936D2E-9AD9-4547-8DCD-E62BCEF829D1} = {B63483BE-5E8E-4EB7-9E79-9979E01F6033}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0B31C526-B3F3-4039-8D21-3BA5A92B46FD}
